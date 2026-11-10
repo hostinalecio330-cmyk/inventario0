@@ -1,0 +1,30 @@
+INVENTARIO DE REFRIGERACIÓN — cómo usarlo
+=========================================
+
+ARCHIVOS
+  index.html              La aplicación completa (funciona sola, sin internet).
+  sw.js                   Hace que el celular/compu la deje guardada para abrir sin conexión.
+  manifest.webmanifest    Permite "Instalarla" como app (ícono en el escritorio / pantalla de inicio).
+  icon-*.png, apple-touch-icon.png   Íconos.
+
+EN LA COMPUTADORA (sin internet)
+  Guarda la carpeta completa y abre index.html con Chrome, Edge o Firefox. Listo.
+  Tus datos quedan guardados en ese navegador.
+
+EN EL CELULAR (sin internet)
+  Lo más cómodo: sube la carpeta UNA vez a un hosting gratis (GitHub Pages, Netlify, Cloudflare Pages)
+  y ábrela en el celular con internet. Después toca "Agregar a pantalla de inicio" / "Instalar app".
+  Desde ese momento abre y funciona sin señal.
+  Sin hosting: pasa index.html al celular y ábrelo con Chrome; funciona, pero algunos celulares no
+  guardan bien los datos de archivos locales, por eso en el celular se recomienda el hosting.
+
+RESPALDO EN EXCEL  (⚙︎ arriba a la derecha)
+  • "Descargar respaldo en Excel": genera un .xlsx con 4 hojas:
+      Resumen · Inventario · Lista de compras · Movimientos
+  • "Restaurar desde Excel": vuelve a cargar ese mismo archivo (Reemplazar todo, o Combinar).
+  • Puedes editar el Excel en la compu (cambiar existencias, precios, agregar filas nuevas al final de
+    "Inventario" con el ID vacío) y cargarlo con "Combinar".
+  • No cambies los nombres de las hojas "Inventario" y "Movimientos" ni los títulos de las columnas.
+  • Los datos viven en cada dispositivo. Para pasar el inventario de la compu al celular:
+    descarga el Excel, mándalo (WhatsApp/correo) y restáuralo allá.
+  • Antes de restaurar, borrar o cargar ejemplos se guarda una copia: ⚙︎ → "Deshacer último cambio grande".
